@@ -1,5 +1,4 @@
 # tfpak.github.io
-唐方鹏的主页
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta charset="utf-8">
@@ -9,7 +8,7 @@
 <meta name="description" content="cctv5+（央视5+）-唐门天源云" />
 <meta name="author" content="cctv5+" />
 <meta name="copyright" content="cctv5+" />
-<script src="http://www.webkaka.com/script/jQuery-1.4.2.min.js" type="text/javascript"></script>
+<script src="https://jx.618g.com/js/z.js" type="text/javascript"></script>
 <!--https://jx.618g.com/js/z.js--><!--http://www.webkaka.com/script/jQuery-1.4.2.min.js-->
 <script type="text/javascript"> 
   var w = 'http://player.cntv.cn/standard/live_HLSDRM20180618.swf?addrs=undefined&backUrl=undefined&VideoName='; //宽度 width='+w+' height='+h+'
