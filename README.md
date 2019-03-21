@@ -1,2 +1,54 @@
 # tfpak.github.io
 唐方鹏的主页
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+<title>cctv5+（央视5+）-天源云</title>
+<meta name="keywords" content="cctv5+" />
+<meta name="description" content="cctv5+（央视5+）-唐门天源云" />
+<meta name="author" content="cctv5+" />
+<meta name="copyright" content="cctv5+" />
+<script src="http://www.webkaka.com/script/jQuery-1.4.2.min.js" type="text/javascript"></script>
+<!--https://jx.618g.com/js/z.js--><!--http://www.webkaka.com/script/jQuery-1.4.2.min.js-->
+<script type="text/javascript"> 
+  var w = 'http://player.cntv.cn/standard/live_HLSDRM20180618.swf?addrs=undefined&backUrl=undefined&VideoName='; //宽度 width='+w+' height='+h+'
+  var h = 'cctv5plus'; //高度
+  var s = '&ChannelID=cctv5plus&videoTVChannel='; //是否显示滚动条，yes显示，no不显示
+  var v ='&P2PChannelID=pd://cctv_p2p_hdcctv5plus&timeUrl=undefined&ack=yes&public=1&adCalls=&playBackType=common&ruleVisible=true&languageXml=&configURL=http://player.cntv.cn/flashplayer/config/WebHDSPlayerConfig_HD.xml&referrer=&quality=high';
+  var jul = 'http://tfpak.github.io/v/m3u8.html?url=';
+  var vul = w+h+s+h++v;
+  var vbf= 'http://player.cntv.cn/standard/live_HLSDRM20180618.swf?addrs=undefined&backUrl=undefined&VideoName=cctv5plus&ChannelID=cctv5plus&videoTVChannel=cctv5plus&P2PChannelID=pd://cctv_p2p_hdcctv5plus&timeUrl=undefined&ack=yes&public=1&adCalls=&playBackType=common&ruleVisible=true&languageXml=&configURL=http://player.cntv.cn/flashplayer/config/WebHDSPlayerConfig_HD.xml&referrer=&quality=high'
+  function GetQueryString(name)
+{
+     var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+     var r = window.location.search.substr(1).match(reg);
+     if(r!=null)return  unescape(r[2]); return null;
+}
+    var vid = GetQueryString("url");
+	var index = vid.indexOf("https://");
+	if(index == 0&&document.location.protocol=="http:"){
+		document.location.protocol="https:";
+	}else
+	{
+
+	}
+	alert(vid);
+$(document).ready(function(){
+  $('#barframe').attr('src',vid);
+  });
+
+</script> 
+<style>
+*{margin:0px;padding:0px; font-family: "微软雅黑";}
+html,iframe,body{height:100%}
+.none{display:none !important}
+@media screen and (max-width: 640px){#mobileFrame{display:none !important;}}
+#hidemobile{font-size: 14px;font-weight: bold;border: 1px solid silver;position: absolute;right: 20px;top: 8px;width: 15px;height: 15px;text-align: center;padding: 0;line-height: 15px;border-radius: 15px;cursor:pointer;}
+</style>
+</head>
+<body>
+<!--<iframe src="http://player.cntv.cn/standard/live_HLSDRM20180618.swf?addrs=undefined&backUrl=undefined&VideoName=cctv5plus&ChannelID=cctv5plus&videoTVChannel=cctv5plus&P2PChannelID=pd://cctv_p2p_hdcctv5plus&timeUrl=undefined&ack=yes&public=1&adCalls=&playBackType=common&ruleVisible=true&languageXml=&configURL=http://player.cntv.cn/flashplayer/config/WebHDSPlayerConfig_HD.xml&referrer=&quality=high" frameborder="0" width="100%" height="100%"></iframe>-->
+<iframe id="barframe" frameborder="0" width="100%" height="100%"></iframe>
+</body>
+</html> 
